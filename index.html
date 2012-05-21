@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
 
-  <title>zigzag | Better Ranked Layout for Grids</title>
+  <title>zigzag | A Fresh take on ranked grid layouts</title>
 
 	<link rel="author" href="/humans.txt" />
 
   <link rel="shortcut icon" href="favicon.ico" />
-
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <script src="https://raw.github.com/mbostock/d3/af2af6ac9080529d102aacfa57807371fd983d2b/d3.v2.js" type="text/javascript"></script>
@@ -18,7 +18,25 @@
 </head>
 </head>
 <body>
-  D3 + Heatmaps = Awesome.
-  <div id="rect-demo"></div>​
+
+<div class="container">
+  <h1>ZigZag</h1><h2>offers a fresh take the layout of a ranked grid.</h2><br/>
+  <div id="distanceMap"></div>
+  <div id="explainer"><p>This here is a heatmap, the greener the color the closer the cell is to the top left. In western cultures our eye is drawn to the top left. So how do we ensure that the best content is in your glance?</p><br/><p>Traditionally we use a left to right, top to bottom approach to laying out a ranked grid (blue). We could sort by distance from the top-left (red). ZigZag offers the best of both worlds by clustering top content in the left corner and settling into the familar left to right pattern (purple).</div>
+
+  <div id="lefttoright" class="sub"></div>
+  <div class="maths" class="sub">+</div>
+  <div id="distance" class="sub"></div>
+  <div class="maths" class="sub">=</div>
+  <div id="ZigZagMaps" class="sub"></div>​
+  <div class="caption">Sorted left to right, top to bottom.</div>
+  <div class="caption">Sorted by distance.</div>
+  <div class="caption">Sorted by ZigZag.</div>
+    <div class="toggles"><br/>
+    <input type="button" id="rankToggle" value="toggle rank / path">
+  </div>
+  <div id="footer">
+    A <a href="http://mksht.crisnoble.com">MKSHT</a> x <a href="http://crisnoble.com">crisnoble</a> speed project, <a href="https://github.com/crismanNoble/zigzag">hosted on github</a>. More on this project <a href="http://mksht.crisnoble.com/zigzag">here</a>.
+</div>
 </body>
 </html>

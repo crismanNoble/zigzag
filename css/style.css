@@ -3,3 +3,87 @@ body {
 	background: #000;
 	color: white;
 }
+
+h1 {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2 {
+	margin-top:10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+span {
+
+}
+
+.zigzags {
+  shape-rendering: crispEdges;
+}
+
+input {
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.numerals {
+	display: none;
+}
+
+.container {
+	width: 515px;
+	margin: 0 auto;
+}
+#distanceMap {
+	float:left;
+}
+
+.sub, .maths {
+float: left;
+}
+
+#explainer {
+	float: left;
+	width: 330px;
+	height: 180px;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.maths {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.toggles {
+	width: 515px;
+	margin: 10px 0px;
+	font-size: 14px;
+	float: left;
+	font-style: italic;
+}
+
+.caption {
+	float: left;
+	font-size: 11px;
+	width: 130px;
+	margin-right: 35px;
+}
+
+#footer {
+		float: left;
+	font-size: 11px;
+	width: 515px;
+		margin-top: 20px;
+}
+
+#footer a {
+
+	color: white;
+}
