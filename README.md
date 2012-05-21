@@ -37,8 +37,6 @@ This gave me an excuse to play with [D3.js](https://github.com/mbostock/d3/wiki/
 
 Which creates 7 rows of 5 squares, and varies the color opacity from 1 to 0 based on the given rank of each cell.
 
-Feel free to browse the code in it's entirity over at [github](https://github.com/crismanNoble/zigzag).
-
 ###Road Map *(if I had no job)*
 
 *    Allow for variation in grid size
